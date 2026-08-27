@@ -1,0 +1,35 @@
+name: smart_commute_optimizer
+
+description: Smart Commute Optimizer App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^2.5.1
+  http: ^1.2.1
+  google_fonts: ^6.2.1
+  google_maps_flutter: ^2.6.1
+  geolocator: ^11.0.0
+  dio: ^5.4.3+1
+  fl_chart: ^0.68.0
+  lottie: ^3.1.2
+  shared_preferences: ^2.2.3
+  speech_to_text: ^7.0.0
+  latlong2: ^0.9.1
+  flutter_map: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
